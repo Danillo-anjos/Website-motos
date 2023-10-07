@@ -1,5 +1,35 @@
+@import url(colors.css);
+
+nav {
+    overflow: hidden;
+    background-color: var(--regular-gray);
+    height: 8vh; 
+}
+
+nav .container-fluid, nav .row {
+    height: 100%;
+}
+
+nav ul.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul.nav-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 300;
+    transition: .2s all;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul.nav-menu a:hover {
+    border-bottom: 2px solid black;
+}
+
 header {
-    height: 60vh;
+    height: 92vh;
     background-image: url(../images/fundo-index.jpg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,17 +45,15 @@ header h1 {
 }
 
 .box-header {
-    width: 28%;
     min-width: 300px;
     background-color: #242311;
     padding: 60px 50px;
     box-sizing: border-box;
-    margin-left: 10%;
     height: fit-content;
 }
 
 .box-header h1 {
-    color: white;
+    color: #ffffff;
     font-size: 22px;
     border-bottom: 1px solid white;
 }
@@ -51,7 +79,7 @@ header h1 {
     background-color: white;
 }
 
-section.Motos div, section.Países div {
+/* section.Motos div, section.Países div {
     width: 80%;
 }
 
@@ -69,7 +97,7 @@ figure {
 
 .btnVejaMais {
     text-decoration: none;
-    color: black;
+    color: #000000;
     border: 1px solid black;
     padding: 12px;
     transition: all 0.3s;
@@ -79,4 +107,4 @@ figure {
     color: white;
     border: 1px solid black;
     background-color: black;
-}
+} */
